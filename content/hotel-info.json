@@ -1,0 +1,18 @@
+{
+    "name": "Şəki Yaylası",
+    "phone": "+994 (50) 123-4567",
+    "phoneRaw": "+994501234567",
+    "whatsapp": "https://wa.me/994501234567",
+    "email": "info@sekiyaylasi.az",
+    "address": {
+        "az": "Şəki rayonu, Kiş kəndi, Yayla mövqeyi, Şəki, Azərbaycan",
+        "en": "Sheki region, Kish village, Yayla area, Sheki, Azerbaijan"
+    },
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1487.6970724659223!2d47.218526466986566!3d41.246473105747656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4041b312b9ff9a17%3A0xe96561fe7db8e855!2sKish%20Church!5e0!3m2!1sen!2saz!4v1700000000000!5m2!1sen!2saz",
+    "socialMedia": {
+        "instagram": "https://instagram.com/sekiyaylasi",
+        "facebook": "https://facebook.com/sekiyaylasi"
+    },
+"backgroundImage": "/images/hero/arxa.fonn.jpg"  ,
+ "backgroundImageOpacity": 0.8
+}

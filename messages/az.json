@@ -1,0 +1,117 @@
+{
+    "Navigation": {
+        "home": "Ana Səhifə",
+        "rooms": "Otaqlar",
+        "menu": "Menyu",
+        "activities": "Əyləncə",
+        "media": "Media",
+        "about": "Haqqımızda",
+        "contact": "Əlaqə"
+    },
+    "Common": {
+        "book_now": "Rezerv et",
+        "call_us": "Zəng edin",
+        "whatsapp": "WhatsApp ilə yazın",
+        "explore_rooms": "Otaqlarımızı kəşf edin",
+        "contact_us": "Bizimlə Əlaqə",
+        "currency": "AZN",
+        "per_night": "gecəyə",
+        "per_person": "nəfərə",
+        "details": "Ətraflı",
+        "capacity": "Tutum",
+        "size": "Sahə",
+        "features": "Otaq imkanları",
+        "people": "{count} nəfərlik",
+        "view_all": "Hamısına Bax",
+        "from": "Başlanğıc qiymət"
+    },
+    "Home": {
+        "title": "Şəki Yaylası",
+        "subtitle": "Kiş kəndinin dağ ətəklərində lüks və hüzur dolu istirahət",
+        "cta_rooms": "Otaqları İncələ",
+        "cta_contact": "Bizimlə Əlaqə",
+        "welcome_title": "Şəki Yaylasına Xoş Gəlmisiniz",
+        "welcome_desc": "Azərbaycanın ən dilbər guşələrindən biri olan Şəkidə, Kiş kəndinin dağ ətəklərində yerləşən Şəki Yaylası, premium istirahət və unudulmaz təbiət mənzərəsi vəd edir. Havanın təmizliyi, quşların cəhcəhi və meşələrin hüzurunu lüks xidmətlərlə birləşdirdik.",
+        "explore_more": "Ətraflı Tanış Ol",
+        "featured_rooms_title": "Önə Çıxan Otaqlarımız",
+        "featured_rooms_subtitle": "Sizin üçün xüsusi layihələndirilmiş premium yaşayış sahələri",
+        "featured_activities_title": "Fəaliyyət və Əyləncə",
+        "featured_activities_subtitle": "Dağın qoynunda əyləncəli, aktiv və mədəni imkanlar",
+        "featured_menu_title": "Mətbəximizdən Seçmələr",
+        "featured_menu_subtitle": "Ənənəvi Azərbaycan mətbəxinin ən dadlı nümunələri",
+        "photo_strip_title": "Otelimizə Aid",
+        "amenities_title": "Xidmət və Üstünlüklərimiz",
+        "amenity_wifi": "Sürətli Wi-Fi",
+        "amenity_pool": "Açıq/Qapalı Hovuz",
+        "amenity_breakfast": "Zəngin Səhər Yeməyi",
+        "amenity_parking": "Təhlükəsiz Parkinq",
+        "amenity_view": "Dağ və Meşə Panoraması",
+        "amenity_restaurant": "Milli və Avropa Mətbəxi",
+        "cta_title": "Rezervasyon üçün bizimlə əlaqə saxlayın",
+        "cta_subtitle": "Telefon zəngi və ya WhatsApp vasitəsilə asanlıqla rezerv edin"
+    },
+    "Rooms": {
+        "title": "Otaqlar və Suitlər",
+        "subtitle": "Hər detalı zövqlə düşünülmüş otaq seçimlərimiz",
+        "view_details": "Ətraflı Bax",
+        "no_rooms": "Hazırda heç bir otaq yoxdur.",
+        "price_from": "başlanğıc"
+    },
+    "RoomDetail": {
+        "call_for_booking": "Rezerv üçün Bizə Zəng Edin",
+        "whatsapp_booking": "WhatsApp ilə Rezervasiya",
+        "specifications": "Otaq Xüsusiyyətləri",
+        "amenities": "Otaq İmkanları",
+        "back_to_rooms": "Bütün otaqlara qayıt"
+    },
+    "Menu": {
+        "title": "Restoran Menyusu",
+        "subtitle": "Ənənəvi Azərbaycan mətbəxinin ən seçkin dadları",
+        "all_categories": "Hamısı",
+        "no_items": "Bu kateqoriyada yemək yoxdur.",
+        "popular": "Populyar",
+        "price_label": "Qiymət"
+    },
+    "Activities": {
+        "title": "Fəaliyyət və Əyləncə",
+        "subtitle": "Şəki dağlarında aktiv istirahət, mədəni kəşflər və sağlamlıq",
+        "all_categories": "Hamısı",
+        "no_items": "Bu kateqoriyada fəaliyyət yoxdur.",
+        "duration": "Müddət",
+        "capacity": "Maksimum qatılımçı",
+        "schedule": "Cədvəl",
+        "difficulty": "Çətinlik",
+        "difficulty_easy": "Asan",
+        "difficulty_medium": "Orta",
+        "difficulty_hard": "Çətin",
+        "includes": "Daxildir",
+        "book_activity": "Bu Aktivliyə Qatıl",
+        "back_to_activities": "Bütün aktivliklərə qayıt"
+    },
+    "About": {
+        "title": "Otelimizin Hekayəsi",
+        "subtitle": "Kəşf edilməyi gözləyən təbiət cənnəti",
+        "story_title": "Şəki Yaylası",
+        "story_text": "Şəki Yaylası, Azərbaycanın ən qədim məskənlərindən biri olan Kiş kəndində dağ turizmini yeni bir səviyyəyə qaldırmaq məqsədilə yaradılmışdır. Qədim Albaniya məbədinə yaxın, meşə zolağı və çayların əhatəsində yerləşən otelimiz həm lüks istirahət axtaranlar, həm də təbiətlə baş-başa qalmaq istəyənlər üçün əvəzsiz məkandır."
+    },
+    "Contact": {
+        "title": "Bizimlə Əlaqə Saxlayın",
+        "subtitle": "Sualınız var və ya rezerv etmək istəyirsiniz? Hər zaman zənginizə hazırıq.",
+        "address_label": "Ünvanımız",
+        "phone_label": "Telefon",
+        "whatsapp_label": "WhatsApp",
+        "email_label": "E-poçt",
+        "hours_label": "İş Rejimi",
+        "hours_value": "Hər gün, 24/7 Xidmət"
+    },
+    "Media": {
+        "title": "Foto Qalereya",
+        "subtitle": "Şəki Yaylasının füsunkar gözəlliklərini kəşf edin",
+        "all": "Hamısı",
+        "exterior": "Eksteryer",
+        "rooms": "Otaqlar",
+        "restaurant": "Restoran",
+        "activities": "Əyləncə və Spa",
+        "views": "Mənzərə"
+    }
+}

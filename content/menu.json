@@ -1,0 +1,169 @@
+{
+    "categories": {
+        "az": [
+            "Azərbaycan Mezələri",
+            "Şorbalar",
+            "Əsas Yeməklər",
+            "Dəniz Məhsulları",
+            "Şirniyyat"
+        ],
+        "en": [
+            "Azerbaijani Starters",
+            "Soups",
+            "Main Courses",
+            "Seafood",
+            "Desserts"
+        ]
+    },
+    "items": [
+        {
+            "slug": "azerbaycan-mezeler",
+            "category": {
+                "az": "Azərbaycan Mezələri",
+                "en": "Azerbaijani Starters"
+            },
+            "name": {
+                "az": "Azərbaycan Mezə Tabağı",
+                "en": "Azerbaijani Meze Platter"
+            },
+            "description": {
+                "az": "Kökünar, qoz ezmesi, badımcan, pomidor, pendir və təzə göyərtidən ibarət ənənəvi Azərbaycan mezeleri tabağı. Çörək ilə sərviz edilir.",
+                "en": "A traditional Azerbaijani meze platter featuring walnut paste, eggplant, tomato, cheese and fresh herbs. Served with local bread."
+            },
+            "price": {
+                "amount": 18,
+                "currency": "AZN"
+            },
+            "tags": [
+                "popular",
+                "vegetarian",
+                "starter"
+            ],
+            "image": "/images/menu/me1.jpg"
+        },
+        {
+            "slug": "dovga",
+            "category": {
+                "az": "Şorbalar",
+                "en": "Soups"
+            },
+            "name": {
+                "az": "Dovğa",
+                "en": "Dovga (Yoghurt Soup)"
+            },
+            "description": {
+                "az": "Qatıq, düyü, noxud və müxtəlif göyərtidən hazırlanan ənənəvi Azərbaycan şorbası. İsti və ya soyuq olaraq istehlak edilir.",
+                "en": "Traditional Azerbaijani soup made from yoghurt, rice, chickpeas and fresh herbs. Served hot or cold."
+            },
+            "price": {
+                "amount": 14,
+                "currency": "AZN"
+            },
+            "tags": [
+                "traditional",
+                "vegetarian"
+            ],
+            "image": "/images/menu/me2.jpg"
+        },
+        {
+            "slug": "lula-kebab",
+            "category": {
+                "az": "Əsas Yeməklər",
+                "en": "Main Courses"
+            },
+            "name": {
+                "az": "Lula Kabab",
+                "en": "Lula Kebab"
+            },
+            "description": {
+                "az": "Kömür közü üzərindəki şişdə bişirilmiş, əl ilə yoğrulmuş quzu ətindən hazırlanmış kabab. Şaşlıq saçı, göyərti və soğan ilə sərviz edilir.",
+                "en": "Hand-minced lamb kebab grilled over charcoal on skewers. Served with a lavash, fresh greens and onion salad."
+            },
+            "price": {
+                "amount": 32,
+                "currency": "AZN"
+            },
+            "tags": [
+                "popular",
+                "grill",
+                "meat"
+            ],
+            "image": "/images/menu/me5.jpg"
+        },
+        {
+            "slug": "sah-plov",
+            "category": {
+                "az": "Əsas Yeməklər",
+                "en": "Main Courses"
+            },
+            "name": {
+                "az": "Şah Plov",
+                "en": "Shah Plov (Royal Rice)"
+            },
+            "description": {
+                "az": "Qazanda lavasa sarılmış, quru meyvə, quzu əti və zəfəranla bişirilmiş möhtəşəm Azərbaycan plovu. Bayram süfrəsinin tacı.",
+                "en": "Magnificent Azerbaijani rice dish wrapped in lavash in a cauldron, cooked with dried fruits, lamb and saffron. The crown of festive tables."
+            },
+            "price": {
+                "amount": 45,
+                "currency": "AZN"
+            },
+            "tags": [
+                "popular",
+                "signature",
+                "festive"
+            ],
+            "image": "/images/menu/me3.jpg"
+        },
+        {
+            "slug": "kur-baligi",
+            "category": {
+                "az": "Dəniz Məhsulları",
+                "en": "Seafood"
+            },
+            "name": {
+                "az": "Kür Balığı Qızartması",
+                "en": "Kura River Trout"
+            },
+            "description": {
+                "az": "Kür çayından tutulan təzə alabalıq, zeytun yağı, limon və ədviyyat ilə közdə bişirilir. Qızardılmış kartof və limon dilimləri ilə sərviz edilir.",
+                "en": "Fresh trout caught from the Kura River, grilled with olive oil, lemon and spices. Served with roasted potatoes and lemon slices."
+            },
+            "price": {
+                "amount": 38,
+                "currency": "AZN"
+            },
+            "tags": [
+                "fresh",
+                "grilled",
+                "local"
+            ],
+            "image": "/images/menu/me4.jpg"
+        },
+        {
+            "slug": "pahlava",
+            "category": {
+                "az": "Şirniyyat",
+                "en": "Desserts"
+            },
+            "name": {
+                "az": "Şəki Halvası & Paxlava",
+                "en": "Sheki Halva & Baklava"
+            },
+            "description": {
+                "az": "Azərbaycan şirniyyat sənətinin zirvəsi — əl işi ənənəvi Şəki halvası və qoz içli nazik xəmirli paxlava. Çay ilə uyğun bir ikili.",
+                "en": "The pinnacle of Azerbaijani confectionery art — handmade traditional Sheki halva and thin-pastry baklava filled with walnuts. A perfect pairing with tea."
+            },
+            "price": {
+                "amount": 16,
+                "currency": "AZN"
+            },
+            "tags": [
+                "popular",
+                "traditional",
+                "sweet"
+            ],
+            "image": "/images/menu/pahlava-halva.jpg"
+        }
+    ]
+}

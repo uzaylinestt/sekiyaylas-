@@ -1,0 +1,117 @@
+{
+    "Navigation": {
+        "home": "Home",
+        "rooms": "Rooms",
+        "menu": "Menu",
+        "activities": "Activities",
+        "media": "Media",
+        "about": "About Us",
+        "contact": "Contact"
+    },
+    "Common": {
+        "book_now": "Book Now",
+        "call_us": "Call Us",
+        "whatsapp": "Chat on WhatsApp",
+        "explore_rooms": "Explore Our Rooms",
+        "contact_us": "Contact Us",
+        "currency": "AZN",
+        "per_night": "per night",
+        "per_person": "per person",
+        "details": "Details",
+        "capacity": "Capacity",
+        "size": "Size",
+        "features": "Room amenities",
+        "people": "{count} guests",
+        "view_all": "View All",
+        "from": "From"
+    },
+    "Home": {
+        "title": "Sheki Yaylasi",
+        "subtitle": "Luxury and peace nestled in the mountains of Kish village",
+        "cta_rooms": "Explore Rooms",
+        "cta_contact": "Contact Us",
+        "welcome_title": "Welcome to Sheki Yaylasi",
+        "welcome_desc": "Located on the slopes of Kish village in Sheki, one of Azerbaijan's most historic and beautiful regions, Sheki Yaylasi promises a premium stay and unforgettable scenic views. We blend the purity of fresh air, the singing of birds, and the absolute peace of the forest with luxury services.",
+        "explore_more": "Discover More",
+        "featured_rooms_title": "Our Featured Rooms",
+        "featured_rooms_subtitle": "Specially designed accommodation spaces for your ultimate comfort",
+        "featured_activities_title": "Activities & Entertainment",
+        "featured_activities_subtitle": "Exciting, active and cultural experiences in the heart of the mountains",
+        "featured_menu_title": "From Our Restaurant",
+        "featured_menu_subtitle": "The finest examples of traditional Azerbaijani cuisine",
+        "photo_strip_title": "Our Hotel",
+        "amenities_title": "Services and Amenities",
+        "amenity_wifi": "High-Speed Wi-Fi",
+        "amenity_pool": "Indoor/Outdoor Pool",
+        "amenity_breakfast": "Rich Buffet Breakfast",
+        "amenity_parking": "Secure Parking Lot",
+        "amenity_view": "Panoramic Mountain View",
+        "amenity_restaurant": "Azerbaijani & European Cuisine",
+        "cta_title": "Contact us for your reservation",
+        "cta_subtitle": "Easily book via phone call or WhatsApp"
+    },
+    "Rooms": {
+        "title": "Rooms & Suites",
+        "subtitle": "Meticulously designed rooms matching high comfort standards",
+        "view_details": "View Details",
+        "no_rooms": "No rooms available right now.",
+        "price_from": "from"
+    },
+    "RoomDetail": {
+        "call_for_booking": "Call Us to Book",
+        "whatsapp_booking": "Book via WhatsApp",
+        "specifications": "Room Details",
+        "amenities": "Room Amenities",
+        "back_to_rooms": "Back to all rooms"
+    },
+    "Menu": {
+        "title": "Restaurant Menu",
+        "subtitle": "The most exquisite flavors of traditional Azerbaijani cuisine",
+        "all_categories": "All",
+        "no_items": "No items in this category.",
+        "popular": "Popular",
+        "price_label": "Price"
+    },
+    "Activities": {
+        "title": "Activities & Entertainment",
+        "subtitle": "Active recreation, cultural discoveries and wellness in Sheki mountains",
+        "all_categories": "All",
+        "no_items": "No activities in this category.",
+        "duration": "Duration",
+        "capacity": "Max. participants",
+        "schedule": "Schedule",
+        "difficulty": "Difficulty",
+        "difficulty_easy": "Easy",
+        "difficulty_medium": "Medium",
+        "difficulty_hard": "Hard",
+        "includes": "Includes",
+        "book_activity": "Join This Activity",
+        "back_to_activities": "Back to all activities"
+    },
+    "About": {
+        "title": "Our Story",
+        "subtitle": "A peaceful mountain sanctuary waiting to be discovered",
+        "story_title": "Sheki Yaylasi",
+        "story_text": "Sheki Yaylasi was established with the vision of elevating mountain tourism in Kish, one of the oldest settlements in Azerbaijan. Located near the ancient church of Kish, in close proximity to forests and rivers, our hotel is an ideal retreat for those seeking a getaway with a touch of luxury amidst natural surroundings."
+    },
+    "Contact": {
+        "title": "Contact Us",
+        "subtitle": "Have a question or looking to book a room? We are always here to help you.",
+        "address_label": "Our Address",
+        "phone_label": "Phone",
+        "whatsapp_label": "WhatsApp",
+        "email_label": "Email",
+        "hours_label": "Working Hours",
+        "hours_value": "Every day, 24/7 Service"
+    },
+    "Media": {
+        "title": "Photo Gallery",
+        "subtitle": "Discover the enchanting beauty of Sheki Yaylasi",
+        "all": "All",
+        "exterior": "Exterior",
+        "rooms": "Rooms",
+        "restaurant": "Restaurant",
+        "activities": "Activities & Spa",
+        "views": "Views"
+    }
+}

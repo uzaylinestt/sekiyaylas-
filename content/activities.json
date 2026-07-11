@@ -1,0 +1,344 @@
+{
+    "categories": {
+        "az": [
+            "Açıq Hava",
+            "Mədəniyyət",
+            "Axşam",
+            "Sağlamlıq"
+        ],
+        "en": [
+            "Outdoor",
+            "Culture",
+            "Evening",
+            "Wellness"
+        ]
+    },
+    "items": [
+        {
+            "slug": "atcilik",
+            "category": {
+                "az": "Açıq Hava",
+                "en": "Outdoor"
+            },
+            "name": {
+                "az": "At Çapma Turu",
+                "en": "Horse Riding Tour"
+            },
+            "shortDesc": {
+                "az": "Şəkinin dağ yolları boyunca at belinde macəralı bir tur.",
+                "en": "An adventurous tour on horseback through Sheki's mountain trails."
+            },
+            "description": {
+                "az": "Peşəkar bələdçilər rəhbərliyində Kiş kəndi ətrafındakı dağ cığırları boyunca gözəl bir at turu. Hər yaş qrupu üçün uyğun olan bu fəaliyyət sizə Şəki dağlarının möhtəşəm mənzərəsini fərqli bir perspektivdən göstərəcək.",
+                "en": "A scenic horse riding tour along the mountain trails around Kish village under the guidance of professional guides. Suitable for all age groups, this activity offers breathtaking views of Sheki mountains from a unique perspective."
+            },
+            "duration": {
+                "az": "2 saat",
+                "en": "2 hours"
+            },
+            "price": {
+                "amount": 60,
+                "currency": "AZN",
+                "per": "person"
+            },
+            "schedule": {
+                "az": "Hər gün 09:00 və 16:00",
+                "en": "Daily at 09:00 and 16:00"
+            },
+            "capacity": 8,
+            "difficulty": "easy",
+            "tags": [
+                "outdoor",
+                "popular",
+                "family"
+            ],
+            "image": "/images/activities/a1.jpg",
+            "includes": {
+                "az": [
+                    "Dəbilqə",
+                    "Peşəkar bələdçi",
+                    "Sığorta",
+                    "Şəkər su"
+                ],
+                "en": [
+                    "Helmet",
+                    "Professional guide",
+                    "Insurance",
+                    "Water"
+                ]
+            }
+        },
+        {
+            "slug": "kayak",
+            "category": {
+                "az": "Açıq Hava",
+                "en": "Outdoor"
+            },
+            "name": {
+                "az": "Dağ Çayı Kayakı",
+                "en": "Mountain River Kayaking"
+            },
+            "shortDesc": {
+                "az": "Kür çayının qollarında sürətli axımlı suda kayak macərası.",
+                "en": "Kayaking adventure in the fast-flowing tributaries of the Kura river."
+            },
+            "description": {
+                "az": "Şəki yaxınlığındakı dağ çaylarında kayak təcrübəsi. Müasir ekipman və sertifikatlı bələdçilərlə, başlanğıcdan orta səviyyəyə qədər olan hər kəs üçün uyğundur. Suyun arasından keçərək dağ mənzərəsini hiss edin.",
+                "en": "Kayaking experience on the mountain rivers near Sheki. With modern equipment and certified guides, suitable for everyone from beginner to intermediate level. Feel the mountain scenery as you navigate through the water."
+            },
+            "duration": {
+                "az": "3 saat",
+                "en": "3 hours"
+            },
+            "price": {
+                "amount": 75,
+                "currency": "AZN",
+                "per": "person"
+            },
+            "schedule": {
+                "az": "Cümə, Şənbə, Bazar — 10:00",
+                "en": "Fri, Sat, Sun — 10:00"
+            },
+            "capacity": 6,
+            "difficulty": "medium",
+            "tags": [
+                "outdoor",
+                "adventure",
+                "water"
+            ],
+            "image": "/images/activities/a2.jpg",
+            "includes": {
+                "az": [
+                    "Kayak avadanlığı",
+                    "Can yeləyi",
+                    "Neopren kostyum",
+                    "Peşəkar bələdçi",
+                    "Sığorta"
+                ],
+                "en": [
+                    "Kayak equipment",
+                    "Life vest",
+                    "Neoprene suit",
+                    "Professional guide",
+                    "Insurance"
+                ]
+            }
+        },
+        {
+            "slug": "xalca-toxuma",
+            "category": {
+                "az": "Mədəniyyət",
+                "en": "Culture"
+            },
+            "name": {
+                "az": "Ənənəvi Xalça Toxuma",
+                "en": "Traditional Carpet Weaving"
+            },
+            "shortDesc": {
+                "az": "UNESCO qorunmasında olan Azərbaycan xalça sənətini öyrənin.",
+                "en": "Learn Azerbaijani carpet weaving art protected by UNESCO."
+            },
+            "description": {
+                "az": "UNESCO-nun qeyri-maddi mədəni irs siyahısında yer alan Azərbaycan xalçaçılıq sənətini yerli ustadların rəhbərliyində öyrənin. Naxış seçimindən ipi ipə qoşmağa qədər hər addımı özünüz yapın. Dərsin sonunda toxuduğunuz nümunəni özünüzlə aparırsınız.",
+                "en": "Learn the art of Azerbaijani carpet weaving, which is on UNESCO's intangible cultural heritage list, under the guidance of local masters. Do every step yourself, from choosing the pattern to threading the needle. At the end of the lesson, you take your woven sample home with you."
+            },
+            "duration": {
+                "az": "2.5 saat",
+                "en": "2.5 hours"
+            },
+            "price": {
+                "amount": 45,
+                "currency": "AZN",
+                "per": "person"
+            },
+            "schedule": {
+                "az": "Hər gün 11:00 — 13:30",
+                "en": "Daily 11:00 — 13:30"
+            },
+            "capacity": 10,
+            "difficulty": "easy",
+            "tags": [
+                "culture",
+                "traditional",
+                "craft",
+                "family"
+            ],
+            "image": "/images/activities/a3.jpg",
+            "includes": {
+                "az": [
+                    "Bütün materiallar",
+                    "Usta bələdçisi",
+                    "Toxunmuş nümunə souveniri"
+                ],
+                "en": [
+                    "All materials",
+                    "Master guide",
+                    "Woven sample souvenir"
+                ]
+            }
+        },
+        {
+            "slug": "milli-yemek-kursu",
+            "category": {
+                "az": "Mədəniyyət",
+                "en": "Culture"
+            },
+            "name": {
+                "az": "Milli Yemək Kursu",
+                "en": "National Cuisine Cooking Class"
+            },
+            "shortDesc": {
+                "az": "Azərbaycan mətbəxinin sirlərini öyrənin — plov, dolma, şaşlıq.",
+                "en": "Learn the secrets of Azerbaijani cuisine — plov, dolma, shashlik."
+            },
+            "description": {
+                "az": "Restoranımızın baş aşpazı ilə birlikdə Azərbaycan mətbəxinin ən ikonik yeməklərini hazırlayın. Şah plov, üzüm yarpaqlı dolma, qutab və ənənəvi şirniyyatlar hazırlayacaqsınız. Kursun sonunda hazırladıqlarınızı dadacaqsınız.",
+                "en": "Prepare the most iconic dishes of Azerbaijani cuisine together with our head chef. You will prepare Shah Plov, grape leaf dolma, kutab and traditional sweets. At the end of the course, you will taste what you've prepared."
+            },
+            "duration": {
+                "az": "4 saat",
+                "en": "4 hours"
+            },
+            "price": {
+                "amount": 90,
+                "currency": "AZN",
+                "per": "person"
+            },
+            "schedule": {
+                "az": "Çərşənbə, Cümə — 15:00",
+                "en": "Wednesday, Friday — 15:00"
+            },
+            "capacity": 8,
+            "difficulty": "easy",
+            "tags": [
+                "culture",
+                "food",
+                "popular"
+            ],
+            "image": "/images/activities/a4.jpg",
+            "includes": {
+                "az": [
+                    "Bütün ingredientlər",
+                    "Resept kitabçası",
+                    "Dadım yeməyi",
+                    "Apron"
+                ],
+                "en": [
+                    "All ingredients",
+                    "Recipe booklet",
+                    "Tasting dinner",
+                    "Apron"
+                ]
+            }
+        },
+        {
+            "slug": "ulduz-musahidesi",
+            "category": {
+                "az": "Axşam",
+                "en": "Evening"
+            },
+            "name": {
+                "az": "Gecə Ulduz Müşahidəsi",
+                "en": "Night Star Gazing"
+            },
+            "shortDesc": {
+                "az": "İşıq çirklənməsindən uzaqda, kristal təmiz Şəki göyü altında ulduzları seyr edin.",
+                "en": "Watch the stars under Sheki's crystal clear sky, far from light pollution."
+            },
+            "description": {
+                "az": "Şəhər işıqlarından uzaq, dağ yaylasının sakit gecəsində professional teleskopla ulduz müşahidəsi. Astroloq bələdçimiz sizə ulduz bürcləri, planetlər və kosmosun sirləri haqqında maraqlı məlumatlar verəcəkdir. Kakao və isti içki ilə birlikdə.",
+                "en": "Star gazing with a professional telescope on a quiet mountain plateau night, away from city lights. Our astronomer guide will provide you with interesting information about star constellations, planets and the mysteries of space. Accompanied by hot cocoa and warm drinks."
+            },
+            "duration": {
+                "az": "2 saat",
+                "en": "2 hours"
+            },
+            "price": {
+                "amount": 40,
+                "currency": "AZN",
+                "per": "person"
+            },
+            "schedule": {
+                "az": "Hər gün saat 21:30 (mövsümə görə dəyişir)",
+                "en": "Daily at 21:30 (varies by season)"
+            },
+            "capacity": 15,
+            "difficulty": "easy",
+            "tags": [
+                "evening",
+                "romantic",
+                "nature"
+            ],
+            "image": "/images/activities/ulduz.jpg",
+            "includes": {
+                "az": [
+                    "Peşəkar teleskop",
+                    "Ulduz xəritəsi",
+                    "İsti içki",
+                    "Battaniyə"
+                ],
+                "en": [
+                    "Professional telescope",
+                    "Star map",
+                    "Hot drinks",
+                    "Blanket"
+                ]
+            }
+        },
+        {
+            "slug": "eneneqvi-hamam-spa",
+            "category": {
+                "az": "Sağlamlıq",
+                "en": "Wellness"
+            },
+            "name": {
+                "az": "Ənənəvi Hamam & Spa",
+                "en": "Traditional Hammam & Spa"
+            },
+            "shortDesc": {
+                "az": "Əsrlik ənənəvi Azərbaycan hamamı ritual masajlar və aromaterapiya ilə.",
+                "en": "Century-old traditional Azerbaijani hammam with ritual massages and aromatherapy."
+            },
+            "description": {
+                "az": "Ənənəvi daş döşəmə Azərbaycan hamamında tam bədən kəl, köpük masajı və aromaterapiya seansı. Dağ ot yağları ilə hazırlanmış özel xəmir ilə bədəniniz yenilənəcək. Seansın sonunda soğuq meyvə içkiləri ilə ikramlanacaqsınız.",
+                "en": "Full body scrub, foam massage and aromatherapy session in traditional stone-floor Azerbaijani hammam. Your body will be rejuvenated with special paste prepared from mountain herb oils. At the end of the session, you will be served cold fruit drinks."
+            },
+            "duration": {
+                "az": "1.5 saat",
+                "en": "1.5 hours"
+            },
+            "price": {
+                "amount": 85,
+                "currency": "AZN",
+                "per": "person"
+            },
+            "schedule": {
+                "az": "Hər gün 10:00 — 20:00 (sifariş ilə)",
+                "en": "Daily 10:00 — 20:00 (by appointment)"
+            },
+            "capacity": 4,
+            "difficulty": "easy",
+            "tags": [
+                "wellness",
+                "spa",
+                "popular",
+                "romantic"
+            ],
+            "image": "/images/activities/hamam-spa.jpg",
+            "includes": {
+                "az": [
+                    "Havlu və bathrobe",
+                    "Dağ ot yağı masajı",
+                    "Soğuq içki",
+                    "Tam özel hamam"
+                ],
+                "en": [
+                    "Towel and bathrobe",
+                    "Mountain herb oil massage",
+                    "Cold drink",
+                    "Fully private hammam"
+                ]
+            }
+        }
+    ]
+}

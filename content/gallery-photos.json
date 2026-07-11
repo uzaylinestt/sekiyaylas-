@@ -1,0 +1,66 @@
+[
+    {
+        "src": "/images/gallery/photo-1.jpg",
+        "alt": {
+            "az": "Şəki Yaylasının giriş görünüşü",
+            "en": "Entrance view of Sheki Yaylasi"
+        },
+        "category": "exterior"
+    },
+    {
+        "src": "/images/gallery/m1.jpg",
+        "alt": {
+            "az": "Açıq hovuz sahəsi",
+            "en": "Outdoor pool area"
+        },
+        "category": "activities"
+    },
+    {
+        "src": "/images/gallery/m2.jpg",
+        "alt": {
+            "az": "Dağ mənzərəsi",
+            "en": "Mountain panorama view"
+        },
+        "category": "views"
+    },
+    {
+        "src": "/images/gallery/m3.jpg",
+        "alt": {
+            "az": "Restoran interyeri",
+            "en": "Restaurant interior"
+        },
+        "category": "restaurant"
+    },
+    {
+        "src": "/images/gallery/m4.jpg",
+        "alt": {
+            "az": "Deluxe otaq interyeri",
+            "en": "Deluxe room interior"
+        },
+        "category": "rooms"
+    },
+    {
+        "src": "/images/gallery/m5.jpg",
+        "alt": {
+            "az": "Axşam mənzərəsi — qış",
+            "en": "Evening view — winter"
+        },
+        "category": "views"
+    },
+    {
+        "src": "/images/gallery/photo-7.jpg",
+        "alt": {
+            "az": "Otel bağçası — yay",
+            "en": "Hotel garden — summer"
+        },
+        "category": "exterior"
+    },
+    {
+        "src": "/images/gallery/photo-8.jpg",
+        "alt": {
+            "az": "Hamam & Spa sahəsi",
+            "en": "Hammam & Spa area"
+        },
+        "category": "activities"
+    }
+]

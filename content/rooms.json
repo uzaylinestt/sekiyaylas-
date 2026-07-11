@@ -1,0 +1,95 @@
+[
+    {
+        "slug": "deluxe-sea-view",
+        "name": {
+            "az": "Deluxe Dəniz Mənzərəli Otaq",
+            "en": "Deluxe Sea View Room"
+        },
+        "shortDesc": {
+            "az": "Hüzurlu dəniz mənzərəsi ilə lüks və rahatlığın mükəmməl harmoniyası.",
+            "en": "Perfect harmony of luxury and comfort with a peaceful sea view."
+        },
+        "description": {
+            "az": "Geniş və işıqlı Deluxe Dəniz Mənzərəli otağımız, mavi suların və möhtəşəm dəniz mənzərəsinin dadını çıxarmaq üçün idealdır. Hər bir detal sizin rahatlığınız və hüzurunuz üçün xüsusi olaraq dizayn edilmişdir.",
+            "en": "Our spacious and bright Deluxe Sea View room is ideal for enjoying the blue waters and magnificent sea views. Every detail is specially designed for your comfort and peace."
+        },
+        "priceRange": {
+            "min": 150,
+            "max": 200,
+            "currency": "AZN"
+        },
+        "size": "32 m²",
+        "capacity": 2,
+        "features": [
+            "sea-view",
+            "balcony",
+            "king-bed",
+            "free-wifi"
+        ],
+        "images": [
+             "/images/rooms/1.jpg"
+        ]
+    },
+    {
+        "slug": "standard-forest-view",
+        "name": {
+            "az": "Standart Meşə Mənzərəli Otaq",
+            "en": "Standard Forest View Room"
+        },
+        "shortDesc": {
+            "az": "Təbiətin qoynunda, sakit və səmimi bir yaşayış sahəsi.",
+            "en": "A quiet and cozy living space in the heart of nature."
+        },
+        "description": {
+            "az": "Yaşıl meşə mənzərəsinə açılan pəncərələri ilə Standart yataq otağımız təbiətlə baş-başa qalmaq istəyənlər üçün mükəmməldir. Rahat çarpayı və sadə dizaynı ilə stressdən uzaq bir istirahət təqdim edir.",
+            "en": "With windows opening to the lush green forest, our Standard bedroom is perfect for those who want to be close to nature. It offers a stress-free stay with comfortable beds and a simple design."
+        },
+        "priceRange": {
+            "min": 90,
+            "max": 120,
+            "currency": "AZN"
+        },
+        "size": "24 m²",
+        "capacity": 2,
+        "features": [
+            "forest-view",
+            "double-bed",
+            "free-wifi"
+        ],
+        "images": [
+             "/images/rooms/2.jpg"
+        ]
+    },
+    {
+        "slug": "family-suite",
+        "name": {
+            "az": "Ailə Lüksü (Family Suite)",
+            "en": "Family Suite"
+        },
+        "shortDesc": {
+            "az": "Ailənizlə birlikdə unudulmaz xatirələr toplayacağınız geniş sahə.",
+            "en": "A spacious area to build unforgettable memories with your family."
+        },
+        "description": {
+            "az": "Ailələr üçün xüsusi olaraq hazırlanmış bu suitimizdə iki ayrı yataq otağı, geniş qonaq sahəsi və xüsusi komfort detayları mövcuddur. Həm uşaqlar, həm də valideynlər üçün tam azadlıq və rahatlıq təmin edir.",
+            "en": "Specially designed for families, this suite features two separate bedrooms, a spacious living area, and customized comfort details. It offers complete freedom and comfort for both kids and parents."
+        },
+        "priceRange": {
+            "min": 250,
+            "max": 320,
+            "currency": "AZN"
+        },
+        "size": "50 m²",
+        "capacity": 4,
+        "features": [
+            "balcony",
+            "living-room",
+            "two-bedrooms",
+            "kitchenette",
+            "free-wifi"
+        ],
+        "images": [
+             "/images/rooms/3.jpg"
+        ]
+    }
+]
