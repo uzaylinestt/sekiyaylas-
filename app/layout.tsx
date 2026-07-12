@@ -7,7 +7,7 @@ export const metadata: Metadata = {
         template: "%s | Şəki Yaylası",
     },
     description:
-        "Şəki Yaylası — Kiş kəndinin füsunkar dağ mənzərəsindəki lüks istirahət. Rezervasyon üçün bizimlə əlaqə saxlayın.",
+        "Şəki Yaylası — Füsunkar dağ mənzərəsindəki lüks istirahət. Rezervasyon üçün bizimlə əlaqə saxlayın.",
     openGraph: {
         type: "website",
         locale: "az_AZ",
