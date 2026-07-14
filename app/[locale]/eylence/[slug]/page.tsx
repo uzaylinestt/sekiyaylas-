@@ -24,7 +24,7 @@ interface Activity {
 
 const difficultyColors: Record<string, string> = {
     easy: "bg-sage/20 text-forest",
-    medium: "bg-bark/15 text-bark",
+    medium: "bg-bark/15 text-cream",
     hard: "bg-red-100 text-red-700",
 };
 
@@ -44,7 +44,7 @@ export default function ActivityDetailPage({ params }: Props) {
         return (
             <main className="flex-1  bg-transparent py-24 text-center">
                 <div className="max-w-md mx-auto px-4">
-                    <h1 className="font-serif text-3xl font-bold text-ink mb-4">
+                    <h1 className="font-serif text-3xl font-bold text-white mb-4">
                         {locale === "az" ? "Fəaliyyət Tapılmadı" : "Activity Not Found"}
                     </h1>
                     <Link
@@ -101,7 +101,7 @@ export default function ActivityDetailPage({ params }: Props) {
                             <h1 className="font-serif text-3xl sm:text-4xl font-extrabold text-ink leading-tight">
                                 {activity.name[locale as "az" | "en"]}
                             </h1>
-                            <p className="text-sm font-medium text-bark uppercase tracking-widest">
+                            <p className="text-sm font-medium text-cream uppercase tracking-widest">
                                 {t("duration")}: {activity.duration[locale as "az" | "en"]}
                             </p>
                             <div className="w-12 h-1 bg-sage rounded-full" />
@@ -118,7 +118,7 @@ export default function ActivityDetailPage({ params }: Props) {
                                 </h3>
                                 <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                                     {activity.includes[locale as "az" | "en"].map((inc, i) => (
-                                        <li key={i} className="flex items-center gap-2.5 text-sm text-muted font-medium font-sans">
+                                        <li key={i} className="flex items-center gap-2.5 text-sm text-cream/80 font-medium font-sans">
                                             <svg className="w-4 h-4 text-sage shrink-0" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
                                                 <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                                             </svg>
@@ -140,7 +140,7 @@ export default function ActivityDetailPage({ params }: Props) {
                                 <span className="text-xs font-bold text-muted uppercase tracking-widest block mb-1">
                                     {locale === "az" ? "Fəaliyyət Qiyməti" : "Activity Price"}
                                 </span>
-                                <span className="font-serif text-3xl font-black text-bark">
+                                <span className="font-serif text-3xl font-black text-cream">
                                     {activity.price.amount} {activity.price.currency}
                                     <span className="text-sm font-sans font-normal text-muted"> / {locale === "az" ? "nəfər" : "person"}</span>
                                 </span>

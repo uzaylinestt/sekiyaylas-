@@ -29,14 +29,14 @@ export default function RoomsPage() {
 
                 {/* Header Block */}
                 <div className="text-center max-w-2xl mx-auto mb-16">
-                    <span className="text-xs font-bold uppercase tracking-widest text-bark mb-3 block">
+                    <span className="text-xs font-bold uppercase tracking-widest text-cream mb-3 block">
                         {t("title") === "Otaqlar və Suitlər" ? "Premium Yaşayış" : "Premium Accommodation"}
                     </span>
-                    <h1 className="font-serif text-4xl sm:text-5xl font-extrabold tracking-tight text-ink mb-4">
+                    <h1 className="font-serif text-4xl sm:text-5xl font-extrabold tracking-tight text-white mb-4">
                         {t("title")}
                     </h1>
                     <div className="w-20 h-1 bg-sage mx-auto mb-4 rounded-full" />
-                    <p className="text-sm sm:text-base text-muted font-medium leading-relaxed">
+                    <p className="text-sm sm:text-base text-cream/80 font-medium leading-relaxed">
                         {t("subtitle")}
                     </p>
                 </div>

@@ -12,7 +12,7 @@ export default function PriceBadge({ min, max, currency }: PriceBadgeProps) {
 
     return (
         <div className="inline-flex items-baseline gap-1 bg-cream border border-sage/20 rounded-xl px-5 py-3 text-ink shadow-xs w-full justify-center">
-            <span className="text-2xl sm:text-3xl font-black font-serif tracking-tight text-bark">
+            <span className="text-2xl sm:text-3xl font-black font-serif tracking-tight text-cream">
                 {min} - {max} {currency}
             </span>
             <span className="text-xs sm:text-sm text-muted font-bold uppercase tracking-wider font-sans">

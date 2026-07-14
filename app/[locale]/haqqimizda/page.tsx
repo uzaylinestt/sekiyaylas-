@@ -87,7 +87,7 @@ export default function AboutPage() {
                     {/* Right text content */}
                     <div className="flex flex-col gap-6">
                         <div>
-                            <span className="text-xs font-bold uppercase tracking-widest text-bark mb-2 block">
+                            <span className="text-xs font-bold uppercase tracking-widest text-cream mb-2 block">
                                 {locale === "az" ? "Tariximiz" : "Our History"}
                             </span>
                             <h2 className="font-serif text-3xl sm:text-4xl font-extrabold tracking-tight text-ink leading-tight mb-4">
@@ -123,7 +123,7 @@ export default function AboutPage() {
                                     {h.icon}
                                 </div>
                                 <h4 className="font-serif text-lg font-bold text-ink">{h.title}</h4>
-                                <p className="text-sm text-muted font-medium leading-relaxed font-sans">{h.desc}</p>
+                                <p className="text-sm text-cream/80 font-medium leading-relaxed font-sans">{h.desc}</p>
                             </div>
                         ))}
                     </div>

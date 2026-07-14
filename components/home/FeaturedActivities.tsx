@@ -1,8 +1,11 @@
-import React from "react";
-import { useTranslations, useLocale } from "next-intl";
+"use client";
+
+import React, { useRef, useEffect } from "react";
+import { useLocale } from "next-intl";
 import { Link } from "@/i18n/routing";
 import activitiesData from "@/content/activities.json";
-import ScrollReveal from "@/components/shared/ScrollReveal";
+import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 interface Activity {
     slug: string;
@@ -13,96 +16,103 @@ interface Activity {
     difficulty: string;
     tags: string[];
     image: string;
+    category: { az: string; en: string };
 }
 
-const difficultyColors: Record<string, string> = {
-    easy: "bg-sage/20 text-forest",
-    medium: "bg-bark/15 text-bark",
-    hard: "bg-red-100 text-red-700",
-};
-
 export default function FeaturedActivities() {
-    const t = useTranslations("Home");
-    const tAct = useTranslations("Activities");
     const locale = useLocale();
+    const t = useTranslations("Home");
+    const scrollRef = useRef<HTMLDivElement>(null);
+    const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
-    const featured = (activitiesData.items as Activity[]).slice(0, 3);
+    const items = (activitiesData.items as Activity[]).slice(0, 6);
+    const allItems = [...items, ...items];
+
+    const startAutoScroll = () => {
+        intervalRef.current = setInterval(() => {
+            if (!scrollRef.current) return;
+            const el = scrollRef.current;
+            const maxScroll = el.scrollWidth / 2;
+            if (el.scrollLeft >= maxScroll) {
+                el.scrollLeft = 0;
+            } else {
+                el.scrollLeft += 2;
+            }
+        }, 16);
+    };
+
+    const stopAutoScroll = () => {
+        if (intervalRef.current) clearInterval(intervalRef.current);
+    };
+
+    useEffect(() => {
+        startAutoScroll();
+        return () => stopAutoScroll();
+    }, []);
 
     return (
-        <section className="py-24 px-4 sm:px-6 lg:px-8 bg-transparent">
-            <div className="max-w-7xl mx-auto">
-
-                {/* Header */}
-                <div className="text-center max-w-2xl mx-auto mb-16">
-                    <span className="text-xs font-bold uppercase tracking-widest text-bark mb-3 block">
+        <section className="py-24 bg-transparent overflow-hidden">
+            {/* Header */}
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
+                <div className="text-center">
+                    <span className="text-xs font-bold uppercase tracking-widest text-cream mb-3 block">
                         {locale === "az" ? "Aktivliklər" : "Activities"}
                     </span>
-                    <h2 className="font-serif text-3xl sm:text-4xl font-extrabold tracking-tight text-ink mb-4">
+                    <h2 className="font-serif text-3xl sm:text-4xl font-extrabold text-white mb-4">
                         {t("featured_activities_title")}
                     </h2>
-                    <div className="w-16 h-1 bg-sage mx-auto mb-4 rounded-full" />
-                    <p className="text-sm sm:text-base text-muted font-medium leading-relaxed">
-                        {t("featured_activities_subtitle")}
-                    </p>
+                    <div className="w-16 h-1 bg-sage mx-auto rounded-full" />
                 </div>
+            </div>
 
-                {/* Grid */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    {featured.map((activity, index) => (
-                        <ScrollReveal key={activity.slug} delay={index * 100}>
-                            <Link
-                                href={`/eylence/${activity.slug}`}
-                                className="group  bg-cream rounded-2xl border border-sage/20 overflow-hidden hover:shadow-lg hover:border-sage/40 transition duration-300 cursor-pointer flex flex-col h-full"
-                            >
-                                {/* Image placeholder */}
-                                <div className="relative h-52 overflow-hidden">
-                                     <img src={activity.image} alt={activity.name[locale as "az" | "en"]} className="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
-                                    {/* Difficulty badge */}
-                                    <div className={`absolute top-3 right-3 px-2 py-1 rounded-full text-xs font-bold ${difficultyColors[activity.difficulty] || difficultyColors.easy}`}>
-                                        {tAct(`difficulty_${activity.difficulty}` as any)}
-                                    </div>
-                                </div>
-
-                                {/* Content */}
-                                <div className="p-6 flex flex-col gap-3 flex-1">
-                                    <h3 className="font-serif text-lg font-bold text-ink group-hover:text-forest transition duration-200">
-                                        {activity.name[locale as "az" | "en"]}
-                                    </h3>
-                                    <p className="text-sm text-muted leading-relaxed flex-1">
-                                        {activity.shortDesc[locale as "az" | "en"]}
-                                    </p>
-
-                                    {/* Meta row */}
-                                    <div className="flex items-center justify-between pt-3 border-t border-sage/20">
-                                        <div className="flex items-center gap-1.5 text-xs text-muted font-medium">
-                                            <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                                                <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                            </svg>
-                                            {activity.duration[locale as "az" | "en"]}
-                                        </div>
-                                        <span className="text-bark font-bold text-sm">
-                                            {activity.price.amount} {activity.price.currency}
-                                            <span className="text-muted font-normal text-xs"> / {locale === "az" ? "nəfər" : "person"}</span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </Link>
-                        </ScrollReveal>
-                    ))}
-                </div>
-
-                {/* View all CTA */}
-                <div className="text-center mt-12">
+            {/* Scroll Strip */}
+            <div
+                ref={scrollRef}
+                className="flex gap-4 overflow-x-auto scrollbar-hide px-4 sm:px-6 lg:px-8 cursor-grab active:cursor-grabbing"
+                style={{ scrollBehavior: "auto" }}
+                onMouseEnter={stopAutoScroll}
+                onMouseLeave={startAutoScroll}
+                onTouchStart={stopAutoScroll}
+                onTouchEnd={startAutoScroll}
+            >
+                {allItems.map((item, idx) => (
                     <Link
-                        href="/eylence"
-                        className="inline-flex items-center gap-2 px-8 py-4 border-2 border-forest text-forest hover:bg-forest hover:text-cream font-bold text-sm tracking-wider uppercase rounded-xl transition duration-300 cursor-pointer"
+                        key={idx}
+                        href={`/eylence/${item.slug}`}
+                        className="relative shrink-0 h-[280px] sm:h-[380px] w-[260px] sm:w-[420px] rounded-2xl overflow-hidden border border-sage/20 shadow-md group"
                     >
-                        {locale === "az" ? "Bütün Aktivliklər" : "All Activities"}
-                        <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-                        </svg>
+                        <Image
+                            src={item.image}
+                            alt={item.name[locale as "az" | "en"]}
+                            fill
+                            className="object-cover transition-transform duration-700 group-hover:scale-105"
+                            sizes="420px"
+                            unoptimized
+                        />
+                        <div className="absolute inset-0 bg-ink/0 group-hover:bg-ink/20 transition-all duration-300" />
+                        <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-ink/80 to-transparent">
+                            <p className="text-cream text-sm font-bold">
+                                {item.name[locale as "az" | "en"]}
+                            </p>
+                            <p className="text-cream/70 text-xs mt-1">
+                                {item.price.amount} {item.price.currency} / {locale === "az" ? "nəfər" : "person"}
+                            </p>
+                        </div>
                     </Link>
-                </div>
+                ))}
+            </div>
+
+            {/* CTA */}
+            <div className="text-center mt-12">
+                <Link
+                    href="/eylence"
+                    className="inline-flex items-center gap-2 px-8 py-4 border-2 border-cream text-cream hover:bg-cream hover:text-forest font-bold text-sm tracking-wider uppercase rounded-xl transition duration-300"
+                >
+                    {locale === "az" ? "Bütün Aktivliklər" : "All Activities"}
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                    </svg>
+                </Link>
             </div>
         </section>
     );

@@ -48,10 +48,10 @@ export default function ScrollPhotoStrip() {
         <section className="py-16 bg-transparent overflow-hidden">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
                 <div className="text-center">
-                    <span className="text-xs font-bold uppercase tracking-widest text-bark mb-3 block">
+                    <span className="text-xs font-bold uppercase tracking-widest text-cream mb-3 block">
                         {locale === "az" ? "Bizimlə Tanış Olun" : "Get to Know Us"}
                     </span>
-                    <h2 className="font-serif text-3xl sm:text-4xl font-extrabold text-ink mb-4">
+                    <h2 className="font-serif text-3xl sm:text-4xl font-extrabold text-white mb-4">
                         {locale === "az" ? "Otelimizə Nəzər Salın" : "Take a Look at Our Hotel"}
                     </h2>
                     <div className="w-16 h-1 bg-sage mx-auto rounded-full" />

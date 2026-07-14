@@ -105,7 +105,7 @@ export default async function RoomDetailPage({ params }: Props) {
 
                         {/* Room Title */}
                         <div>
-                            <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl font-black tracking-tight text-ink mb-4 leading-tight">
+                            <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl font-black tracking-tight text-white mb-4 leading-tight">
                                 {name}
                             </h1>
                             {/* Size and Capacity Badges */}
@@ -124,7 +124,7 @@ export default async function RoomDetailPage({ params }: Props) {
 
                         {/* Description Text */}
                         <div className="bg-cream/90 p-6 sm:p-8 rounded-2xl border border-sage/20 shadow-xs">
-                            <h3 className="font-serif text-xl font-extrabold text-ink mb-4">
+                            <h3 className="font-serif text-xl font-extrabold text-white mb-4">
                                 {locale === "az" ? "Otaq Haqqında" : "About the Room"}
                             </h3>
                             <p className="text-muted leading-relaxed font-sans text-sm sm:text-base font-medium">

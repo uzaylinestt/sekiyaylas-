@@ -75,14 +75,14 @@ export default function ContactPage() {
 
                 {/* Page Header */}
                 <div className="text-center max-w-2xl mx-auto mb-16">
-                    <span className="text-xs font-bold uppercase tracking-widest text-bark mb-3 block">
+                    <span className="text-xs font-bold uppercase tracking-widest text-cream mb-3 block">
                         {locale === "az" ? "Bizimlə Əlaqə" : "Contact Details"}
                     </span>
-                    <h1 className="font-serif text-4xl sm:text-5xl font-extrabold tracking-tight text-ink mb-4">
+                    <h1 className="font-serif text-4xl sm:text-5xl font-extrabold tracking-tight text-white mb-4">
                         {t("title")}
                     </h1>
                     <div className="w-20 h-1 bg-sage mx-auto mb-4 rounded-full" />
-                    <p className="text-sm sm:text-base text-muted font-medium leading-relaxed">
+                    <p className="text-sm sm:text-base text-cream/80 font-medium leading-relaxed">
                         {t("subtitle")}
                     </p>
                 </div>
@@ -164,7 +164,7 @@ export default function ContactPage() {
                                 title={`Şəki Yaylası ${locale === "az" ? "Xəritə" : "Map"}`}
                             />
                         </div>
-                        <p className="text-xs text-muted font-medium text-center font-sans">
+                        <p className="text-xs text-cream/80 font-medium text-center font-sans">
                             {locale === "az"
                                 ? "Xəritə Kiş kəndindəki otelin mövqeyini göstərir."
                                 : "Map shows the resort's location in Kish village."}
