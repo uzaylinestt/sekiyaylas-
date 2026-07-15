@@ -17,9 +17,13 @@ interface Props {
 
 // Generate static params for prerendering room pages
 export async function generateStaticParams() {
-    return (roomsData as RoomType[]).map((room) => ({
-        slug: room.slug,
-    }));
+    const locales = ["az", "en"];
+    return (roomsData as RoomType[]).flatMap((room) =>
+        locales.map((locale) => ({
+            locale,
+            slug: room.slug,
+        }))
+    );
 }
 
 // Localized feature mapper
