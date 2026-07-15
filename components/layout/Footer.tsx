@@ -38,8 +38,8 @@ export default function Footer() {
                     </Link>
                     <p className="text-sage/70 text-sm max-w-sm leading-relaxed mt-2">
                         {locale === "az"
-                            ? "Şəkinin füsunkar Kiş kəndində, meşələrin qucağında yerləşən lüks və təbii istirahət məkanı."
-                            : "A luxurious mountain resort in the historic Kish village of Sheki, surrounded by natural forest landscapes."}
+                            ? "Şəkinin füsunkar təbiəti, meşələrin qucağında yerləşən lüks və təbii istirahət məkanı."
+                            : "A luxurious mountain resort in the historic nature of Sheki, surrounded by natural forest landscapes."}
                     </p>
                     {/* Social media */}
                     <div className="flex gap-3 mt-2">
