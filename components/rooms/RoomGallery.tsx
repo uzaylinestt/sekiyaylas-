@@ -35,7 +35,7 @@ export default function RoomGallery({ images, roomName }: RoomGalleryProps) {
                     priority
                     sizes="(max-w-1024px) 100vw, 800px"
                     className="object-cover transition-transform duration-500 group-hover:scale-102"
-                    unoptimized
+                     
                 />
                 {/* Gallery Overlay Indicator */}
                 <div className="absolute inset-0 bg-ink/10 opacity-0 group-hover:opacity-100 transition duration-200 flex items-center justify-center">
@@ -66,7 +66,7 @@ export default function RoomGallery({ images, roomName }: RoomGalleryProps) {
                                 fill
                                 sizes="120px"
                                 className="object-cover"
-                                unoptimized
+                                 
                             />
                         </button>
                     ))}

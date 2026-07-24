@@ -73,7 +73,7 @@ export default async function LocaleLayout({ children, params }: Props) {
             sizes="100vw"
             className="object-cover object-center"
             style={{ opacity: hotelInfo.backgroundImageOpacity }}
-            unoptimized
+             
           />
         </div>
 

@@ -16,7 +16,7 @@ export default function ScrollPhotoStrip() {
     const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
     const [progress, setProgress] = useState(0);
 
-    const photos: GalleryPhoto[] = galleryPhotos as GalleryPhoto[];
+    const photos: GalleryPhoto[] = (galleryPhotos as GalleryPhoto[]).filter((p: any) => p._active);
     // Duplicate for seamless loop
     const allPhotos = [...photos, ...photos];
 
@@ -79,7 +79,7 @@ export default function ScrollPhotoStrip() {
                             fill
                             className="object-cover transition-transform duration-700 group-hover:scale-105"
                             sizes="420px"
-                            unoptimized
+                             
                         />
                         {/* Hover overlay */}
                         <div className="absolute inset-0 bg-ink/0 group-hover:bg-ink/20 transition-all duration-300" />

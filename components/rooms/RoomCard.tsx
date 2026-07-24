@@ -41,7 +41,7 @@ export default function RoomCard({ room }: RoomCardProps) {
                     fill
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     className="object-cover transition-transform duration-550 group-hover:scale-[1.03]"
-                    unoptimized
+                     
                 />
 
                 {/* Price tag badge */}

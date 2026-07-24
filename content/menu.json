@@ -39,7 +39,7 @@
                 "vegetarian",
                 "starter"
             ],
-            "image": "/images/menu/me1.jpg"
+            "image": "/images/menu/me1.webp"
         },
         {
             "slug": "dovga",
@@ -63,7 +63,7 @@
                 "traditional",
                 "vegetarian"
             ],
-            "image": "/images/menu/me2.jpg"
+            "image": "/images/menu/me2.webp"
         },
         {
             "slug": "lula-kebab",
@@ -88,7 +88,7 @@
                 "grill",
                 "meat"
             ],
-            "image": "/images/menu/me5.jpg"
+            "image": "/images/menu/me5.webp"
         },
         {
             "slug": "sah-plov",
@@ -113,7 +113,7 @@
                 "signature",
                 "festive"
             ],
-            "image": "/images/menu/me3.jpg"
+            "image": "/images/menu/me3.webp"
         },
         {
             "slug": "kur-baligi",
@@ -138,7 +138,7 @@
                 "grilled",
                 "local"
             ],
-            "image": "/images/menu/me4.jpg"
+            "image": "/images/menu/me4.webp"
         },
         {
             "slug": "pahlava",
@@ -163,7 +163,7 @@
                 "traditional",
                 "sweet"
             ],
-            "image": "/images/menu/pahlava-halva.jpg"
+            "image": "/images/menu/pahlava-halva.webp"
         }
     ]
 }

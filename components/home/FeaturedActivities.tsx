@@ -87,7 +87,7 @@ export default function FeaturedActivities() {
                             fill
                             className="object-cover transition-transform duration-700 group-hover:scale-105"
                             sizes="420px"
-                            unoptimized
+                             
                         />
                         <div className="absolute inset-0 bg-ink/0 group-hover:bg-ink/20 transition-all duration-300" />
                         <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-ink/80 to-transparent">
